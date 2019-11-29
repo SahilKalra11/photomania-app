@@ -2,7 +2,7 @@
   <div>
     <div class="wrapper">
         <header class="header-section">
-          <img src=".././logo.png" alt="Company Logo"/>
+          <h1 class="logo-text">LOGO</h1>
           <ul>
             <li class="prev-button"><button @click = "previous()">prev</button></li>
             <li class="next-button"><button @click = "next()">next</button></li>
@@ -104,6 +104,9 @@ export default {
 
 <style lang="scss">
 
+.logo-text{
+  color:#fff;
+}
 .header-section{
   text-align: center;
   padding-top: 15px;
